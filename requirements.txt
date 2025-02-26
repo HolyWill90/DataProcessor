@@ -1,0 +1,9 @@
+pandas>=1.5.0
+openpyxl>=3.1.0
+pyyaml>=6.0
+python-dateutil>=2.8.2
+shareplum>=0.5.1  # For SharePoint integration
+fastapi>=0.95.0   # For API capabilities
+uvicorn>=0.22.0   # ASGI server for FastAPI
+typer>=0.9.0      # For CLI interface
+loguru>=0.7.0     # Enhanced logging

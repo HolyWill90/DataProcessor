@@ -1,0 +1,343 @@
+=== GIT STATUS ===
+
+
+=== STAGED FILES ===
+100644 d3f9c2cc7af6cb9b7822c1ea62d3e0224d00e59c 0	.gitignore
+100644 d374239530244fafa81e8426c675ad1897a44cd2 0	.streamlit/config.toml
+100644 6e281ff677928da6fa119adad3860affff23077b 0	README.md
+100644 b9bbc127ab433ff61f4187ffdd745573275ec433 0	README.ui.md
+100644 702a5a4aaf6e5b3e4e72a1a70ae9aa75ece9df99 0	TESTING.md
+100644 98b8d5fe21dd54b1bdb893bde5d52e5b510a558e 0	TESTING.ui.md
+100644 653cd3a417333b426ea825a6f4fac8f2e594af42 0	UI_ARCHITECTURE.md
+100644 395052880b26a260c9814a012460202bb63dcd18 0	UI_CLEANUP_SUMMARY.md
+100644 4bdc23e2d8b501b5140055c514d75316ab2bf84c 0	UI_FIXES_APPLIED.md
+100644 f2e37c9a77f1e245d86544d47360808b11332e64 0	UI_OPTIMIZATION_RECOMMENDATIONS.md
+100644 e69de29bb2d1d6434b8b29ae775ad8c2e48c5391 0	USAGE_GUIDE.md
+100644 9cff81498ba7fece6007aced2eb103b40e2d9586 0	__init__.py
+100644 1b545cacf8be0d52b0bdbe04a7f42cb3219e1d8b 0	cleanup.py
+100644 709b300f1ade20709251f68534db61f321d225f9 0	cli.py
+100644 0af6b169d1517c207e700f730025c15cdc55e9f0 0	config/__init__.py
+100644 a39cd99853e395852cd8c3209366e9a9505e6694 0	config/providers.py
+100644 faa2de7386ba5b3a7c76c8283b13254bab1683e7 0	config/providers/example.json
+100644 7686dc2c368f69f2d5958127e0c468e7a93ccec2 0	config/settings.json
+100644 628afad5014a3c62eab98142666845e8330a39b2 0	connectors/__init__.py
+100644 bc1e9fd19fddf41dd1ae414964b0593f99812520 0	connectors/sharepoint_connector.py
+100644 295048c3a2bc7f1f855b7d7c4d717511271c8948 0	core/__init__.py
+100644 5b60d290a022c0144a05cc8603f9301c11e35632 0	core/file_processor.py
+100644 5615a6e8f681516439539ee9225a929ad96fb07b 0	debug.py
+100644 ca41d253a0387c172431aa20e896e72bbd1ead54 0	debug_ui.py
+100644 9cf93f7a8fff97858abec3b78a0bbdca908719a3 0	delete_redundant_files.py
+100644 922433b988d391f1868bfd38f4abdbb0a8cd2952 0	fix_ui.py
+100644 2c9963fcc9b22c66b20f4968de670edb93d709d7 0	harmonizer_app.py
+100644 f3ff61f3833d522ae21b725940b57e35b574fbbb 0	launcher.py
+100644 3a014c18ce1541df71b30cf38d5619e17978574d 0	main_ui.py
+100644 e0fec1ca242eb4f921adade758e949a90e63be3f 0	optimize_ui.py
+100644 1b787e690772d272f2513b3aaba68b0f238d5193 0	provider_ui.py
+100644 8cf77a7422387e856a934cd7a1114ef52a550014 0	quick_start.py
+100644 f5e564290ecfafdf93e153e34626b0c9840bb077 0	requirements.txt
+100644 1c8d593ce3eaeb6dd0b6590971d46ebeedcd0323 0	run.py
+100644 3b489d023cb11b503d4052336961b7178dc8f5a9 0	run_ui.py
+100644 a2ff3264884be33e74a64a40d077bea1ae648e34 0	sample_data/mapping.json
+100644 60f9ff15f8f9e7a21e54785ba8328b14908a267a 0	setup.py
+100644 0d82d52a445ff5dd4bb63d9ed5dadf221ecf30b2 0	streamlit_app.py
+100644 4ecb831557c421e7ad1a2b6b01f85641db77a36e 0	streamlit_launcher.py
+100644 115e3fbc97545d0c86ce1fc51a56fa74df63a715 0	test.py
+100644 2ddea42b711e23250aa90c14a69f77d57356ee39 0	test_files/sample_invoice.xlsx
+100644 1e0e99b1d07ba97848aa6a0847172f1c4ab91731 0	test_files2/__init__.py
+100644 a7e51132a7f35c9c01157b3cef9326aca5de7951 0	test_files2/debug_output.csv.log.json
+100644 500beeed94ccd06354c7d9ca02dfa3af281529e3 0	tkinter_app.py
+100644 98948de2e6ee9e397b1ba331fe16a8776cac02d8 0	transformers/__init__.py
+100644 9d2d4ad8d358f77633e5dba40cf15fc076f6883d 0	transformers/transform_pipeline.py
+100644 d408fbc42c1584707842874a749d562df5aa001f 0	ui/__init__.py
+100644 b11d8c03157c51322a6f2c0baae1b2fd3745d5a7 0	ui/file_processor.py
+100644 21f1aeecd0dbc1381067261492b2feb35dc749e1 0	ui/home.py
+100644 a9f92d0150a3b7dbe35101d387e352def7f26e4c 0	ui/provider_manager.py
+100644 1e3197bfb80e7dc28fe4e15b9a965c33d6dbcbfd 0	ui/settings.py
+100644 058bc9dcc1934ca4bcedf6a0d3df1f1d6be8362c 0	ui_direct.py
+100644 ba2e584cc59939b5546a62da5119ed0e515284b2 0	ui_requirements.txt
+100644 ce48fa5fae4dfca9e9ef2190d1e150ad049e33e6 0	ui_tkinter/__init__.py
+100644 759ff8c88a597c790436d89e166c27914d93b3c9 0	ui_tkinter/app.py
+100644 d5ba7dbce3b6fab8f3e8c6af90b80f9336e5cd4e 0	ui_wrapper.py
+100644 234ad3a2557b0b3f55308f4de84843a70d16344c 0	utils.py
+
+
+=== DIRECTORY STRUCTURE ===
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.gitignore
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.streamlit
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\cleanup.py
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\cli.py
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\config
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\connectors
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\core
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\debug.py
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\debug_ui.py
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\delete_redundant_files.py
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\fix_ui.py
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\harmonizer_app.py
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\launcher.py
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\main_ui.py
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\optimize_ui.py
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\provider_ui.py
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\quick_start.py
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\README.md
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\README.ui.md
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\repo_status.py
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\repo_status.txt
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\requirements.txt
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\run.py
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\run_ui.py
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\sample_data
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\setup.py
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\streamlit_app.py
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\streamlit_launcher.py
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\test.py
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\TESTING.md
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\TESTING.ui.md
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\test_files
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\test_files2
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\tkinter_app.py
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\transformers
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\ui
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\ui_analysis_results.json
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\UI_ARCHITECTURE.md
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\UI_CLEANUP_SUMMARY.md
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\ui_direct.py
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\UI_FIXES_APPLIED.md
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\UI_OPTIMIZATION_RECOMMENDATIONS.md
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\ui_requirements.txt
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\ui_tkinter
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\ui_wrapper.py
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\USAGE_GUIDE.md
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\utils.py
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\__init__.py
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\__pycache__
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\config
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\description
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\FETCH_HEAD
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\HEAD
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\hooks
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\index
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\info
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\refs
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\hooks\applypatch-msg.sample
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\hooks\commit-msg.sample
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\hooks\fsmonitor-watchman.sample
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\hooks\post-update.sample
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\hooks\pre-applypatch.sample
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\hooks\pre-commit.sample
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\hooks\pre-merge-commit.sample
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\hooks\pre-push.sample
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\hooks\pre-rebase.sample
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\hooks\pre-receive.sample
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\hooks\prepare-commit-msg.sample
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\hooks\push-to-checkout.sample
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\hooks\sendemail-validate.sample
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\hooks\update.sample
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\info\exclude
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\05
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\0a
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\0d
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\11
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\1b
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\1c
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\1e
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\21
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\23
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\29
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\2c
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\2d
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\39
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\3a
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\3b
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\4b
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\4e
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\50
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\56
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\5b
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\60
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\62
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\65
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\6e
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\70
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\75
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\76
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\8c
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\92
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\98
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\9c
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\9d
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\a2
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\a3
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\a7
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\a9
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\b1
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\b9
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\ba
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\bc
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\ca
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\ce
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\d3
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\d4
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\d5
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\e0
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\e6
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\f2
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\f3
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\f5
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\fa
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\info
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\pack
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\05\8bc9dcc1934ca4bcedf6a0d3df1f1d6be8362c
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\0a\f6b169d1517c207e700f730025c15cdc55e9f0
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\0d\82d52a445ff5dd4bb63d9ed5dadf221ecf30b2
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\11\5e3fbc97545d0c86ce1fc51a56fa74df63a715
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\1b\545cacf8be0d52b0bdbe04a7f42cb3219e1d8b
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\1b\787e690772d272f2513b3aaba68b0f238d5193
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\1c\8d593ce3eaeb6dd0b6590971d46ebeedcd0323
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\1e\0e99b1d07ba97848aa6a0847172f1c4ab91731
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\1e\3197bfb80e7dc28fe4e15b9a965c33d6dbcbfd
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\21\f1aeecd0dbc1381067261492b2feb35dc749e1
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\23\4ad3a2557b0b3f55308f4de84843a70d16344c
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\29\5048c3a2bc7f1f855b7d7c4d717511271c8948
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\2c\9963fcc9b22c66b20f4968de670edb93d709d7
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\2d\dea42b711e23250aa90c14a69f77d57356ee39
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\39\5052880b26a260c9814a012460202bb63dcd18
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\3a\014c18ce1541df71b30cf38d5619e17978574d
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\3b\489d023cb11b503d4052336961b7178dc8f5a9
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\4b\dc23e2d8b501b5140055c514d75316ab2bf84c
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\4e\cb831557c421e7ad1a2b6b01f85641db77a36e
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\50\0beeed94ccd06354c7d9ca02dfa3af281529e3
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\56\15a6e8f681516439539ee9225a929ad96fb07b
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\5b\60d290a022c0144a05cc8603f9301c11e35632
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\60\f9ff15f8f9e7a21e54785ba8328b14908a267a
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\62\8afad5014a3c62eab98142666845e8330a39b2
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\65\3cd3a417333b426ea825a6f4fac8f2e594af42
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\6e\281ff677928da6fa119adad3860affff23077b
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\70\2a5a4aaf6e5b3e4e72a1a70ae9aa75ece9df99
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\70\9b300f1ade20709251f68534db61f321d225f9
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\75\9ff8c88a597c790436d89e166c27914d93b3c9
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\76\86dc2c368f69f2d5958127e0c468e7a93ccec2
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\8c\f77a7422387e856a934cd7a1114ef52a550014
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\92\2433b988d391f1868bfd38f4abdbb0a8cd2952
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\98\948de2e6ee9e397b1ba331fe16a8776cac02d8
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\98\b8d5fe21dd54b1bdb893bde5d52e5b510a558e
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\9c\f93f7a8fff97858abec3b78a0bbdca908719a3
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\9c\ff81498ba7fece6007aced2eb103b40e2d9586
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\9d\2d4ad8d358f77633e5dba40cf15fc076f6883d
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\a2\ff3264884be33e74a64a40d077bea1ae648e34
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\a3\9cd99853e395852cd8c3209366e9a9505e6694
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\a7\e51132a7f35c9c01157b3cef9326aca5de7951
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\a9\f92d0150a3b7dbe35101d387e352def7f26e4c
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\b1\1d8c03157c51322a6f2c0baae1b2fd3745d5a7
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\b9\bbc127ab433ff61f4187ffdd745573275ec433
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\ba\2e584cc59939b5546a62da5119ed0e515284b2
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\bc\1e9fd19fddf41dd1ae414964b0593f99812520
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\ca\41d253a0387c172431aa20e896e72bbd1ead54
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\ce\48fa5fae4dfca9e9ef2190d1e150ad049e33e6
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\d3\74239530244fafa81e8426c675ad1897a44cd2
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\d3\f9c2cc7af6cb9b7822c1ea62d3e0224d00e59c
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\d4\08fbc42c1584707842874a749d562df5aa001f
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\d5\ba7dbce3b6fab8f3e8c6af90b80f9336e5cd4e
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\e0\fec1ca242eb4f921adade758e949a90e63be3f
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\e6\9de29bb2d1d6434b8b29ae775ad8c2e48c5391
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\f2\e37c9a77f1e245d86544d47360808b11332e64
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\f3\ff61f3833d522ae21b725940b57e35b574fbbb
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\f5\e564290ecfafdf93e153e34626b0c9840bb077
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\objects\fa\a2de7386ba5b3a7c76c8283b13254bab1683e7
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\refs\heads
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.git\refs\tags
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\.streamlit\config.toml
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\config\providers
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\config\providers.py
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\config\settings.json
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\config\__init__.py
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\config\__pycache__
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\config\providers\example.json
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\config\__pycache__\providers.cpython-310.pyc
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\config\__pycache__\__init__.cpython-310.pyc
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\connectors\sharepoint_connector.py
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\connectors\__init__.py
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\connectors\__pycache__
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\connectors\__pycache__\sharepoint_connector.cpython-310.pyc
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\connectors\__pycache__\__init__.cpython-310.pyc
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\core\file_processor.py
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\core\__init__.py
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\core\__pycache__
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\core\__pycache__\file_processor.cpython-310.pyc
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\core\__pycache__\__init__.cpython-310.pyc
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\sample_data\mapping.json
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\test_files\sample_invoice.xlsx
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\test_files2\debug_output.csv
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\test_files2\debug_output.csv.log.json
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\test_files2\__init__.py
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\transformers\transform_pipeline.py
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\transformers\__init__.py
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\transformers\__pycache__
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\transformers\__pycache__\transform_pipeline.cpython-310.pyc
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\transformers\__pycache__\__init__.cpython-310.pyc
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\ui\file_processor.py
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\ui\home.py
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\ui\provider_manager.py
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\ui\settings.py
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\ui\__init__.py
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\ui\__pycache__
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\ui\__pycache__\file_processor.cpython-310.pyc
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\ui\__pycache__\home.cpython-310.pyc
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\ui\__pycache__\provider_manager.cpython-310.pyc
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\ui\__pycache__\settings.cpython-310.pyc
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\ui\__pycache__\__init__.cpython-310.pyc
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\ui_tkinter\app.py
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\ui_tkinter\__init__.py
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\ui_tkinter\__pycache__
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\ui_tkinter\__pycache__\app.cpython-310.pyc
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\ui_tkinter\__pycache__\__init__.cpython-310.pyc
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\__pycache__\cleanup.cpython-310.pyc
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\__pycache__\cleanup_ui.cpython-310.pyc
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\__pycache__\cli.cpython-310.pyc
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\__pycache__\delete_redundant_files.cpython-310.pyc
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\__pycache__\harmonizer_app.cpython-310.pyc
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\__pycache__\optimize_ui.cpython-310.pyc
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\__pycache__\run.cpython-310.pyc
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\__pycache__\streamlit_app.cpython-310.pyc
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\__pycache__\ui_wrapper.cpython-310.pyc
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\__pycache__\utils.cpython-310.pyc
+C:\Users\willi\OneDrive\Desktop\PSK tools\financial_harmonizer\__pycache__\__init__.cpython-310.pyc
+
+
+=== IGNORED FILES ===
+__pycache__/__init__.cpython-310.pyc
+__pycache__/cleanup.cpython-310.pyc
+__pycache__/cleanup_ui.cpython-310.pyc
+__pycache__/cli.cpython-310.pyc
+__pycache__/delete_redundant_files.cpython-310.pyc
+__pycache__/harmonizer_app.cpython-310.pyc
+__pycache__/optimize_ui.cpython-310.pyc
+__pycache__/run.cpython-310.pyc
+__pycache__/streamlit_app.cpython-310.pyc
+__pycache__/ui_wrapper.cpython-310.pyc
+__pycache__/utils.cpython-310.pyc
+config/__pycache__/__init__.cpython-310.pyc
+config/__pycache__/providers.cpython-310.pyc
+connectors/__pycache__/__init__.cpython-310.pyc
+connectors/__pycache__/sharepoint_connector.cpython-310.pyc
+core/__pycache__/__init__.cpython-310.pyc
+core/__pycache__/file_processor.cpython-310.pyc
+test_files2/debug_output.csv
+transformers/__pycache__/__init__.cpython-310.pyc
+transformers/__pycache__/transform_pipeline.cpython-310.pyc
+ui/__pycache__/__init__.cpython-310.pyc
+ui/__pycache__/file_processor.cpython-310.pyc
+ui/__pycache__/home.cpython-310.pyc
+ui/__pycache__/provider_manager.cpython-310.pyc
+ui/__pycache__/settings.cpython-310.pyc
+ui_analysis_results.json
+ui_tkinter/__pycache__/__init__.cpython-310.pyc
+ui_tkinter/__pycache__/app.cpython-310.pyc
+
+
+=== UNTRACKED FILES ===
+repo_status.py
+repo_status.txt
+
+

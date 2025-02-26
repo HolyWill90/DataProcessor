@@ -1,0 +1,84 @@
+{
+  "ProviderName": "ExampleVendor",
+  "Flags": ["StandardFormat"],
+  "Synonyms": [
+    {
+      "LogicalField": "date",
+      "AlternateNames": ["Date", "Transaction Date", "Invoice Date", "Doc Date", "Due Date"]
+    },
+    {
+      "LogicalField": "amount",
+      "AlternateNames": ["Amount", "Total", "Invoice Amount", "Value", "Subtotal"]
+    },
+    {
+      "LogicalField": "description",
+      "AlternateNames": ["Description", "Details", "Line Item", "Particulars", "Item Description"]
+    },
+    {
+      "LogicalField": "reference",
+      "AlternateNames": ["Reference", "Ref", "Invoice Number", "Invoice #", "Invoice Ref"]
+    },
+    {
+      "LogicalField": "gst_amt",
+      "AlternateNames": ["GST", "Tax", "VAT", "Tax Amount", "GST Amount", "Calculated:GST"]
+    },
+    {
+      "LogicalField": "excl_gst",
+      "AlternateNames": ["Excl GST", "Net", "Net Amount", "Amount Excl GST", "Calculated:ExGST"]
+    }
+  ],
+  "FilterTable": [
+    "[amount] <> 0",
+    "[description] <> null"
+  ],
+  "Calculations": [
+    {
+      "NewField": "gst_amt",
+      "Expression": "([amount] * 0.15)"
+    },
+    {
+      "NewField": "excl_gst",
+      "Expression": "([amount] - [gst_amt])"
+    },
+    {
+      "NewField": "combined_ref",
+      "Expression": "[reference] & \"-\" & [date]"
+    }
+  ],
+  "HardcodedFields": [
+    {
+      "FieldName": "provider",
+      "Value": "ExampleVendor"
+    },
+    {
+      "FieldName": "currency",
+      "Value": "NZD"
+    }
+  ],
+  "HeaderExtraction": [
+    {
+      "FieldName": "invoice_period",
+      "StartDelim": "Period:",
+      "EndDelim": "Invoice",
+      "CleanupSteps": [
+        {
+          "type": "trim"
+        }
+      ]
+    },
+    {
+      "FieldName": "account_number",
+      "StartDelim": "Account:",
+      "EndDelim": "\n",
+      "CleanupSteps": [
+        {
+          "type": "trim"
+        }
+      ]
+    }
+  ],
+  "UnpivotColumns": {
+    "KeyColumns": ["date", "reference"],
+    "ValueColumns": ["description", "amount"]
+  }
+}

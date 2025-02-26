@@ -1,0 +1,9 @@
+{
+  "output_directory": "",
+  "default_export_format": "csv",
+  "auto_detect_provider": true,
+  "theme": "system",
+  "sharepoint_enabled": false,
+  "sharepoint_site": "",
+  "auto_update": true
+}

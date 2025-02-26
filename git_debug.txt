@@ -1,0 +1,2 @@
+=== GIT DEBUG INFO ===
+Directory listing:

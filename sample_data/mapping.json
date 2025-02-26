@@ -1,0 +1,5 @@
+{
+  "invoice": "ExampleVendor",
+  "bank": "BankVendor",
+  "statement": "StatementVendor"
+}

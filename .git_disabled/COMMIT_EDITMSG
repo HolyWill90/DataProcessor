@@ -1,0 +1,71 @@
+test 
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   .gitignore
+#	new file:   .streamlit/config.toml
+#	new file:   README.md
+#	new file:   README.ui.md
+#	new file:   TESTING.md
+#	new file:   TESTING.ui.md
+#	new file:   UI_ARCHITECTURE.md
+#	new file:   UI_CLEANUP_SUMMARY.md
+#	new file:   UI_FIXES_APPLIED.md
+#	new file:   UI_OPTIMIZATION_RECOMMENDATIONS.md
+#	new file:   USAGE_GUIDE.md
+#	new file:   __init__.py
+#	new file:   cleanup.py
+#	new file:   cli.py
+#	new file:   config/__init__.py
+#	new file:   config/providers.py
+#	new file:   config/providers/example.json
+#	new file:   config/settings.json
+#	new file:   connectors/__init__.py
+#	new file:   connectors/sharepoint_connector.py
+#	new file:   core/__init__.py
+#	new file:   core/file_processor.py
+#	new file:   debug.py
+#	new file:   debug_ui.py
+#	new file:   delete_redundant_files.py
+#	new file:   fix_ui.py
+#	new file:   harmonizer_app.py
+#	new file:   launcher.py
+#	new file:   main_ui.py
+#	new file:   optimize_ui.py
+#	new file:   provider_ui.py
+#	new file:   quick_start.py
+#	new file:   requirements.txt
+#	new file:   run.py
+#	new file:   run_ui.py
+#	new file:   sample_data/mapping.json
+#	new file:   setup.py
+#	new file:   streamlit_app.py
+#	new file:   streamlit_launcher.py
+#	new file:   test.py
+#	new file:   test_files/sample_invoice.xlsx
+#	new file:   test_files2/__init__.py
+#	new file:   test_files2/debug_output.csv.log.json
+#	new file:   tkinter_app.py
+#	new file:   transformers/__init__.py
+#	new file:   transformers/transform_pipeline.py
+#	new file:   ui/__init__.py
+#	new file:   ui/file_processor.py
+#	new file:   ui/home.py
+#	new file:   ui/provider_manager.py
+#	new file:   ui/settings.py
+#	new file:   ui_direct.py
+#	new file:   ui_requirements.txt
+#	new file:   ui_tkinter/__init__.py
+#	new file:   ui_tkinter/app.py
+#	new file:   ui_wrapper.py
+#	new file:   utils.py
+#
+# Untracked files:
+#	repo_status.py
+#	repo_status.txt
+#

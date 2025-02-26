@@ -1,0 +1,79 @@
+[
+  {
+    "Step": "Process Excel",
+    "Timestamp": "2025-02-26T06:18:34.112882",
+    "Source": "FileProcessor",
+    "ActionDetail": "C:\\Users\\willi\\OneDrive\\Desktop\\PSK tools\\financial_harmonizer\\test_files\\sample_invoice.xlsx",
+    "Message": "Successfully processed sheet 'Sheet1'"
+  },
+  {
+    "Step": "Apply Synonyms",
+    "Timestamp": "2025-02-26T06:18:34.112882",
+    "Source": "TransformPipeline",
+    "ActionDetail": "Renamed columns: Date, Amount, Description, Invoice Number to date, amount, description, reference",
+    "Message": "Success"
+  },
+  {
+    "Step": "Apply Filters",
+    "Timestamp": "2025-02-26T06:18:34.112882",
+    "Source": "TransformPipeline",
+    "ActionDetail": "Filter: [amount] <> 0; Rows removed: 0",
+    "Message": "Applied"
+  },
+  {
+    "Step": "Apply Filters",
+    "Timestamp": "2025-02-26T06:18:34.112882",
+    "Source": "TransformPipeline",
+    "ActionDetail": "Filter: [description] <> null; Rows removed: 0",
+    "Message": "Applied"
+  },
+  {
+    "Step": "Apply Filters Summary",
+    "Timestamp": "2025-02-26T06:18:34.112882",
+    "Source": "TransformPipeline",
+    "ActionDetail": "Original rows: 3; Final rows: 3; Total removed: 0",
+    "Message": "Completed"
+  },
+  {
+    "Step": "Apply Calculations",
+    "Timestamp": "2025-02-26T06:18:34.112882",
+    "Source": "TransformPipeline",
+    "ActionDetail": "Added column: gst_amt = ([amount] * 0.15)",
+    "Message": "Success"
+  },
+  {
+    "Step": "Apply Calculations",
+    "Timestamp": "2025-02-26T06:18:34.118210",
+    "Source": "TransformPipeline",
+    "ActionDetail": "Added column: excl_gst = ([amount] - [gst_amt])",
+    "Message": "Success"
+  },
+  {
+    "Step": "Apply Calculations",
+    "Timestamp": "2025-02-26T06:18:34.119788",
+    "Source": "TransformPipeline",
+    "ActionDetail": "Added column: combined_ref = [reference] & \"-\" & [date]",
+    "Message": "Success"
+  },
+  {
+    "Step": "Apply Hardcoded Fields",
+    "Timestamp": "2025-02-26T06:18:34.119788",
+    "Source": "TransformPipeline",
+    "ActionDetail": "Added field: provider = ExampleVendor",
+    "Message": "Success"
+  },
+  {
+    "Step": "Apply Hardcoded Fields",
+    "Timestamp": "2025-02-26T06:18:34.119788",
+    "Source": "TransformPipeline",
+    "ActionDetail": "Added field: currency = NZD",
+    "Message": "Success"
+  },
+  {
+    "Step": "Extract Values",
+    "Timestamp": "2025-02-26T06:18:34.119788",
+    "Source": "TransformPipeline",
+    "ActionDetail": "No source text or field definitions",
+    "Message": "No changes made"
+  }
+]
